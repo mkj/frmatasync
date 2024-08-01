@@ -1,0 +1,12 @@
+[package]
+name = "frmatasync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-io-async = "0.6.1"
+heapless = "0.8.0"
+
+[dev-dependencies]
+embedded-io-adapters = { version = "0.6.1", features = ["tokio-1"] }
+tokio = { version = "1.0", features = ["full"] }
